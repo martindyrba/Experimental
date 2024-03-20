@@ -20,3 +20,7 @@ pip install tensorflow[and-cuda]==2.15.1
 
 4. Use Visual Studio Code to edit and run Jupyter notebook files (recommended). If you instead want to use plain Jupyter, make sure to install the 'nb_conda_kernel' package in your conda 'base' environment once: `pip install nb_conda_kernels`
 
+5. In Visual Studio Code, you can initally proceed as follows:
+  1. Go to the menu "File" -> "Open Folder...", and select the "Experimental" folder
+  2. When you open a Jupyter notebook file for the first time, you have to specify in which Python environment the Kernel should be executed. 
+Therefore, go to the top right corner and click on "Select Kernel". There, choose "tf2.15" from the list or click on "Select Another Kernel..." -> "Python Evironments..."
